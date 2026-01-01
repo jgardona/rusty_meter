@@ -211,7 +211,7 @@ impl super::MyApp {
         }
 
         egui::TopBottomPanel::top("top_panel").show(ctx, |ui| {
-            egui::menu::bar(ui, |ui| {
+            egui::MenuBar::new().ui(ui, |ui| {
                 ui.menu_button("File", |ui| {
                     if ui.button("Settings").clicked() {
                         self.settings_open = true;
@@ -232,7 +232,7 @@ impl super::MyApp {
                 ui.hyperlink_to(
                     format!("Version: v{}", super::VERSION),
                     format!(
-                        "https://github.com/markusdd/RustyMeter/releases/tag/v{}",
+                        "https://github.com/markusdd/rusty_meter/releases/tag/v{}",
                         super::VERSION
                     ),
                 );

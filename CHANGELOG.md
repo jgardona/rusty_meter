@@ -2,7 +2,10 @@
 
 ## 0.4.1
 
-- move project to rust 1.84.0 (needed for egui_plot fixes)
+- move project to rust 1.91.0 (needed for egui_plot fixes and other updates)
+- move to egui 0.33.3
+- generally update all dependencies
+- fix the version tag link in the bottom of the window
 
 ## 0.4.0
 
