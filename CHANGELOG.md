@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.4.2
+
+- TBD
+
 ## 0.4.1
 
 - move project to rust 1.91.0 (needed for egui_plot fixes and other updates)
