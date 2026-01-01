@@ -1,4 +1,4 @@
-use phf::{phf_ordered_map, OrderedMap};
+use phf::{OrderedMap, phf_ordered_map};
 
 /// A trait that must be implemented for all SCPI command structs.
 /// Gets passed the struct instance itself and the selected option name

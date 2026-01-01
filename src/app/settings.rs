@@ -1,4 +1,4 @@
-use egui::{color_picker::color_picker_color32, Context, TextEdit, Window};
+use egui::{Context, TextEdit, Window, color_picker::color_picker_color32};
 
 impl super::MyApp {
     pub fn show_settings(&mut self, ctx: &Context) {
